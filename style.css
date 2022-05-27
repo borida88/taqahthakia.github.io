@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+nav{
+  width:100%;
+  overflow:auto;
+  background-color:CornflowerBlue;
+}
+
+ul{
+  padding:0;
+  margin:0 0 0 250px;
+  list-style:none;
+}
+
+
+li{
+  float:right;  
+}
+
+li a{
+  width:100px;
+  display:block;
+  padding:20px 15px;
+  text-decoration: none;
+  font-family: arial;
+  color: black;
+  text-align:center;
+}
+
+li a:hover{
+  background-color: grey;
+  text-transform:uppercase;
+}
+
+.logo img{
+  max-width:150px;
+  height:auto;
+  position:absolute;
+  right:10px;
+  margin-top:-25px;
+  margin-left:10px;
+}
+
+.search-engine{
+  position:absolute;
+  left:150px;
+  top:25px;
+}
